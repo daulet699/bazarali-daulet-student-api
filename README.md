@@ -43,7 +43,7 @@ See `docs/RUN_ON_MAC_RU.md`, `docs/GIT_MIDTERM_RU.md`, `docs/JENKINS_RU.md`, `do
 
 Do not commit `.env`, credentials or other private data. The PostgreSQL password here is only for a local lab environment, not production.
 
-## CRUD Feature Development — Daulet Bazarali
+## CRUD Documentation — Daulet Bazarali
 
 Feature branch: feature/bazarali-daulet-crud
 
