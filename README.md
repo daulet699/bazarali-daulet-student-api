@@ -43,10 +43,5 @@ See `docs/RUN_ON_MAC_RU.md`, `docs/GIT_MIDTERM_RU.md`, `docs/JENKINS_RU.md`, `do
 
 Do not commit `.env`, credentials or other private data. The PostgreSQL password here is only for a local lab environment, not production.
 
-## Student API Development — Daulet Bazarali
-
-Feature branch: feature/bazarali-daulet-crud
-
-Added GET /api/students/count to retrieve the total number of students stored in PostgreSQL.
-
-Added an automated integration test to verify the student count endpoint.
+<<<<<<< HEAD
+## Student API and CRUD Documentation — Daulet Bazarali
