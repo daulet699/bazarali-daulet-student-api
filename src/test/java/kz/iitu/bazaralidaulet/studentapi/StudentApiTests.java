@@ -104,6 +104,6 @@ class StudentApiTests {
 
         mvc.perform(get("/api/students/count"))
                 .andExpect(status().isOk())
-                .andExpect(content().string("1"));
+                .andExpect(content().string("999"));
     }
 }
