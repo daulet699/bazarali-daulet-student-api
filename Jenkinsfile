@@ -8,7 +8,8 @@ pipeline {
         STUDENT_ID = '37392'
         IMAGE_NAME = 'bazarali-daulet-student-api'
         IMAGE_TAG = 'v1.0-37392'
-        PATH = "/opt/homebrew/bin:/usr/local/bin:/Users/nurasylzapsarbek/.docker/bin:${env.PATH}"
+	JAVA_HOME = '/Users/nurasylzapsarbek/Library/Java/JavaVirtualMachines/ms-21.0.10/Contents/Home'
+        PATH = "/Users/nurasylzapsarbek/Library/Java/JavaVirtualMachines/ms-21.0.10/Contents/Home/bin:/opt/homebrew/bin:/usr/local/bin:/Users/nurasylzapsarbek/.docker/bin:${env.PATH}"
     }
     stages {
         stage('Checkout') {
