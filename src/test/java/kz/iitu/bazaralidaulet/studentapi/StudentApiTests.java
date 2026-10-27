@@ -93,4 +93,17 @@ class StudentApiTests {
                 .andExpect(status().isOk())
                 .andExpect(jsonPath("$.studentId").value("37392"));
     }
+    @Test
+    void countStudentsReturnsCorrectTotal() throws Exception {
+        repository.save(new Student(
+                "Daulet Bazarali",
+                "daulet@example.com",
+                "IT2-2308",
+                "37392"
+        ));
+
+        mvc.perform(get("/api/students/count"))
+                .andExpect(status().isOk())
+                .andExpect(content().string("1"));
+    }
 }

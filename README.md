@@ -42,3 +42,11 @@ Create a record, `docker compose restart`, then retrieve it again. A named volum
 See `docs/RUN_ON_MAC_RU.md`, `docs/GIT_MIDTERM_RU.md`, `docs/JENKINS_RU.md`, `docs/TEAMS_CHECKLIST_RU.md`.
 
 Do not commit `.env`, credentials or other private data. The PostgreSQL password here is only for a local lab environment, not production.
+
+## CRUD Feature Development — Daulet Bazarali
+
+Feature branch: feature/bazarali-daulet-crud
+
+Added GET /api/students/count to retrieve the total number of students stored in PostgreSQL.
+
+Added an automated integration test to verify the student count endpoint.
