@@ -50,3 +50,4 @@ Do not commit `.env`, credentials or other private data. The PostgreSQL password
 The Jenkins pipeline builds the Spring Boot application,
 runs automated tests, builds the Docker image,
 and verifies the resulting image.
+Jenkins SCM polling verification completed.
