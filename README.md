@@ -43,5 +43,4 @@ See `docs/RUN_ON_MAC_RU.md`, `docs/GIT_MIDTERM_RU.md`, `docs/JENKINS_RU.md`, `do
 
 Do not commit `.env`, credentials or other private data. The PostgreSQL password here is only for a local lab environment, not production.
 
-<<<<<<< HEAD
 ## Student API and CRUD Documentation — Daulet Bazarali
