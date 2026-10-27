@@ -48,4 +48,8 @@ public class StudentController {
         repository.delete(student);
         return ResponseEntity.noContent().build();
     }
+    @GetMapping("/count")
+    public long count() {
+        return repository.count();
+    }
 }
