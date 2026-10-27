@@ -1,0 +1,10 @@
+.git
+.gradle
+build
+.env
+.env.*
+!.env.example
+logs
+backups
+*.log
+.DS_Store

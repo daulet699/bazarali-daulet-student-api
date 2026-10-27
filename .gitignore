@@ -1,0 +1,14 @@
+.gradle/
+build/
+.idea/
+.vscode/
+.DS_Store
+*.iml
+*.log
+.env
+.env.*
+!.env.example
+logs/*.log
+backups/*
+!backups/.gitkeep
+**/__pycache__/
